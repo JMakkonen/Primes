@@ -22,7 +22,7 @@ number = gets().chomp.to_f
 # Now check by dividing the number by all the primes.
 # Only need to check up to the square root!
 # This first part validates user input.  Needs some more work
-if (primes[num-1] * primes[num-1] < number) then
+if ((primes[num-1] * primes[num-1] < number)||(number<3)) then
   puts("Your number is too large")
 else
   count = 0
