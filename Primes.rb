@@ -1,14 +1,20 @@
 primes=[]
 
 # Initialize variables
-
 primes=[]
 primes.push(2)
 count = 1
 n=3
 
+# Ask user how many primes to generate.
+puts("Please enter how many prices to generate")
+lim = gets().chomp.to_i
+if (lim <10 || lim>10**9) then
+  lim = 10
+end
+
 # Change the 1000 to how many primes you want to generate
-while (count < 10000) do 
+while (count < lim) do 
   flagIt = false # Set flag that number is prime.
   # The following loop could be sped up by checking only up
   # to sqrt of n.  Would a break work?
@@ -31,3 +37,4 @@ primes.each do |i|
   f.write("#{i}\n")
 end
 f.close()
+puts( "File saved.")
