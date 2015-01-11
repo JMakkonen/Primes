@@ -18,3 +18,6 @@ The Fibonacci sequence is defined as:
 * a_n = a_n-1 + a_n-2 for n>1
 
 Look it up on wikipedia if you want more info.
+
+### Program P1002
+This program was written to test the accuracy and limits of Binet's formula which is a direct calculation of the n-th term of the sequence.  There are some comments added to the end of the program discussing where the limits of the arithmatic engine in Ruby lie.
