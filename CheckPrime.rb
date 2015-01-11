@@ -1,6 +1,7 @@
 # This program will check a number entered by the user
 # to see if it is prime.  It relies on a file with primes
 # and checks if each prime divides the number given evenly.
+include Math
 
 f = File.open("testfile.data","r")
 primes = []
@@ -42,4 +43,14 @@ else
   if (isPrime) then
     puts("Looks like your number is prime!")
   end
+end
+
+# This next part checks to see if the number given is a Fibonacci number
+# The test used is apparently designed by Gessel.
+a = 5*number*number + 4
+b = a-8 # 5*number*number - 4
+if (sqrt(a) ** 2).to_i == (sqrt(a).to_i ** 2) or (sqrt(b) ** 2).to_i == (sqrt(b).to_i ** 2) then
+  puts("Your number is a Fibonacci number")
+else
+  puts("Your number is not a Fibonacci number")
 end
