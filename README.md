@@ -20,3 +20,6 @@ Look it up on wikipedia if you want more info.
 
 ### Program P1002
 This program was written to test the accuracy and limits of Binet's formula which is a direct calculation of the n-th term of the sequence.  There are some comments added to the end of the program discussing where the limits of the arithmatic engine in Ruby lie.
+
+### Program P1003
+This program was written to create an array with the Farey series of order N as entered at the prompt.  At the end of the program you have an array, where each entry in the array gives you at element [x][0], the decimal representation of the term in the Farey series, at element [x][1], the numerator and at element [x][2], the denominator of the term in the Farey series.  In Hardy's and Wright's *An introduction to the theory of numbers*, in section 3.4, theres a brief explanation of how to find the next term in a Farey series of order n.  Unfortunately, this seemed to be way too difficult in comparison with the brute force method employed in the program.
