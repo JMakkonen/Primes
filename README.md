@@ -23,3 +23,9 @@ This program was written to test the accuracy and limits of Binet's formula whic
 
 ### Program P1003
 This program was written to create an array with the Farey series of order N as entered at the prompt.  At the end of the program you have an array, where each entry in the array gives you at element [x][0], the decimal representation of the term in the Farey series, at element [x][1], the numerator and at element [x][2], the denominator of the term in the Farey series.  In Hardy's and Wright's *An introduction to the theory of numbers*, in section 3.4, theres a brief explanation of how to find the next term in a Farey series of order n.  Unfortunately, this seemed to be way too difficult in comparison with the brute force method employed in the program.
+
+### Program P1004
+This program has 2 functions defined in it.  One reads and returns an array of prime numbers which are saved in testfile.data.  The other function accepts a number and the array of primes and returns an array of the prime factors of the number.  If the number is divisable multiple times by a prime factor, it will repeat it.  So for example, calling Factor(16, [2,3,5,7]) will return an array [2.0,2.0,2.0,2.0]  since 16 is 2 to the power of 4.
+
+### Program P1005
+This program tests the functionality in P1004.  You can use it as examples of how to use the functions defined in P1004.
