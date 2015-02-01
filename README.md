@@ -26,3 +26,5 @@ This program has 4 functions defined in it.  There is a function that creates a 
 The 3rd function defined is lcm(num1, num2) and returns the lowest (or least) common multiple of num1 and num2.  It uses the Factor function to do this.
 The 4th function is gcf(num1, num2) and returns the greatest common factor between num1 and num2.  It also uses the Factor function to do this.
 
+### Program RU1100
+This program implements a Rot-N message encryption.  It has a function rotn(message, offset).  Offset is defaulted to 13.  So rotn("my message") will do a rot-13 transform on the string.
