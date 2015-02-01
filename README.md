@@ -2,7 +2,7 @@
 Ruby Prime Calculation and other math tools
 
 ### Overview
-This program was an exercise for programming in Ruby.  I am reading a book on number theory so these programs have been inspired by that.
+This program was an exercise for programming in Ruby.  Some programs were inspired by a text on number theory.
 
 ### Fibonacci sequence number generator
 
@@ -28,3 +28,6 @@ The 4th function is gcf(num1, num2) and returns the greatest common factor betwe
 
 ### Program RU1100
 This program implements a Rot-N message encryption.  It has a function rotn(message, offset).  Offset is defaulted to 13.  So rotn("my message") will do a rot-13 transform on the string.
+
+### Program RU1104
+This program uses P1004 (above) and provides a window for the user to enter a number and then factors that number.  It uses the TCL TK windows wrapper to the OS API, so you have to have that loaded.
