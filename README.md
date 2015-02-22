@@ -31,3 +31,10 @@ This program implements a Rot-N message encryption.  It has a function rotn(mess
 
 ### Program RU1104
 This program uses P1004 (above) and provides a window for the user to enter a number and then factors that number.  It uses the TCL TK windows wrapper to the OS API, so you have to have that loaded.
+
+### Program P1034
+Just to note I have switched to programming in Python rather than Ruby mostly because the courses I am taking on Coursera require Python programming.  Anyway, I am retracing some of the work done above in Ruby and re-doing it in Python.
+I have, in this program, created a number of functions related to prime numbers.  It will check if numbers are prime, it will factor numbers.  The program if run, will calculate and append 100,000 primes into a file primes0.data.  My primes0.data file has about 1,000,000 primes in it, it is 9.4 MB in size.  The computer can load the whole thing into memory without an issue.  I'll update this comment when/if I build it up to 10,000,000 primes.
+
+### Program P1035
+This program produces a graph of the distribution of the number of factors of a number between 10,000 and 100,000.  (It does take some time to run.)  It is surprising how large a percentage of the numbers have 1,2 or 3 prime factors.
