@@ -38,3 +38,6 @@ I have, in this program, created a number of functions related to prime numbers.
 
 ### Program P1035
 This program produces a graph of the distribution of the number of factors of a number between 10,000 and 100,000.  (It does take some time to run.)  It is surprising how large a percentage of the numbers have 1,2 or 3 prime factors.
+
+### Program P1063
+This creates a series of graphs on the evolution of lim (1 + i*pi/n)^n as n-> infinity.  It is based on matlab code published in the preface to Dr. Euler's Fabulous Formula by Paul J. Nahim and adapted to Python.
